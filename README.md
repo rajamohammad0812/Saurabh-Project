@@ -17,30 +17,29 @@ infra/                 # Terraform config for Function App
 .github/workflows/     # GitHub Actions workflow
 README.md
 ```
-.
-├── functions/
-│   ├── CreateResourcesOrchestrator/
-│   │   ├── function.json
-│   │   └── run.ps1
-│   ├── CreateGithubRepoActivity/
-│   │   ├── function.json
-│   │   └── run.ps1
-│   ├── CreateKeyVaultActivity/
-│   │   ├── function.json
-│   │   └── run.ps1
-├── infra/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   ├── provider.tf
-│   ├── appservice.tf
-│   ├── durable_function.tf
-│   ├── keyvault.tf
-│   ├── identity.tf
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-├── README.md
+# ├── functions/
+# │   ├── CreateResourcesOrchestrator/
+# │   │   ├── function.json
+# │   │   └── run.ps1
+# │   ├── CreateGithubRepoActivity/
+# │   │   ├── function.json
+# │   │   └── run.ps1
+# │   ├── CreateKeyVaultActivity/
+# │   │   ├── function.json
+# │   │   └── run.ps1
+# ├── infra/
+# │   ├── main.tf
+# │   ├── variables.tf
+# │   ├── outputs.tf
+# │   ├── provider.tf
+# │   ├── appservice.tf
+# │   ├── durable_function.tf
+# │   ├── keyvault.tf
+# │   ├── identity.tf
+# ├── .github/
+# │   └── workflows/
+# │       └── deploy.yml
+# ├── README.md
 
 ---
 
