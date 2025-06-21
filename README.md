@@ -72,7 +72,7 @@ This will show:
 	•	"runtimeStatus": "Completed" once all tasks have run successfully.
 	•	output will contain any output data.
  
-✅ 7️⃣ Verify Resources
+✅ Verify Resources
 
 After the status says Completed:
 	1.	Go to your GitHub account — verify that the new repository was created.
